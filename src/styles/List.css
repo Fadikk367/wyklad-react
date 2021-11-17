@@ -1,0 +1,30 @@
+.list-container {
+  width: 600px;
+}
+
+.list-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.list-buttons > * {
+  flex: 1;
+}
+
+.list-container > h3 {
+  margin: 20px 0;
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgb(36, 101, 175);;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+  background-color: rgb(174, 199, 219);
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
